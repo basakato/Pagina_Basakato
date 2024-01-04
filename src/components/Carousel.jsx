@@ -1,6 +1,6 @@
-import { CardBlog } from "./CardBlog";
+import { CardBlog } from './CardBlog';
 import { Header2 } from './Header2';
-/*import { blogs  } from './components/data/data';*/
+/* import blogs from './data/data.js'; */
 
 const blogs = [
   {

@@ -5,7 +5,7 @@ module.exports = {
   },
   settings: {
     react: {
-      version: 'detect'
+      version: 'detect',
     },
   },
 
@@ -31,5 +31,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['react'],
-  rules: {},
+  rules: {
+    'react/prop-types': 'off',
+  },
 };

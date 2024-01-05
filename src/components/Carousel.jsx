@@ -89,13 +89,11 @@ function Carousel() {
   const carouselBlogs = [...blogs, ...blogs];
 
   return (
-    <div className='container my-1'>
-      <div className='w-full'>
-        <div className='flex whitespace-nowrap animate-scroll'>
-          {carouselBlogs.map((blog, index) => (
-            <CardBlog blog={blog} key={index} />
-          ))}
-        </div>
+    <div className='overflow-hidden my-1'>
+      <div className='flex whitespace-nowrap animate-scroll'>
+        {carouselBlogs.map((blog, index) => (
+          <CardBlog blog={blog} key={index} />
+        ))}
       </div>
     </div>
   );

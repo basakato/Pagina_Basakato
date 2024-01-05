@@ -1,4 +1,4 @@
-import iconMenu from '../assets/images/icon-menu.svg';
+import iconMenu from '../assets/images/favicon.png';
 
 export const NavBar = () => {
   return (
@@ -21,7 +21,7 @@ export const NavBar = () => {
         </li>
       </ul>
       <img
-        className='w-10 h-4 cursor-pointer sm:hidden'
+        className='w-12 h-12 cursor-pointer sm:hidden'
         src={iconMenu}
         alt='Menu hamburguesa'
       />

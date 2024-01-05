@@ -1,5 +1,4 @@
-import { CardBlog } from './CardBlog';
-import { Header2 } from './Header2';
+import { CardBlog } from './CardBlog.jsx';
 /* import blogs from './data/data.js'; */
 
 const blogs = [
@@ -30,6 +29,15 @@ const blogs = [
     author: 'Jhon Doe',
     date: '18 de Noviembre - 2023',
   },
+  {
+    id: 4,
+    title: 'lorem ipsum vita est',
+    description:
+      ' La imagen de este automóvil azul deportivo, capturado en el crepúsculo del desierto, nos lleva a un viaje por la Ruta 66, la carretera más emblemática de América. Nos remonta a la época dorada de los viajes por carretera, un símbolo de aventura y libertad. Este coche no es solo un medio de transporte, sino una cápsula de tiempo que conecta el pasado con el presente, invitando a explorar horizontes desconocidos y a sentir el poder de la máquina y el camino bajo nuestros pies.',
+    category: 'alimentacion',
+    author: 'Jacobo Doe',
+    date: '18 de Noviembre - 2023',
+  },
 ];
 
 function Carousel() {
@@ -37,8 +45,6 @@ function Carousel() {
 
   return (
     <div className='App'>
-      <Header2 />
-
       <div className='container my-5'>
         <div className='overflow-hidden w-full'>
           <div className='flex whitespace-nowrap animate-scroll'>

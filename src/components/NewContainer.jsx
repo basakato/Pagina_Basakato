@@ -2,8 +2,8 @@ import { NewArticle } from "./NewArticle"
 
 export const NewContainer = () => {
   return (
-    <aside className="bg-VeryDarkBlue text-OffWhite py-[28px] px-[20px]">
-        <h1 className="text-SoftOrange text-4xl font-bold">Nuevo</h1>
+    <aside className="bg-VeryDarkBlue text-OffWhite py-[12px] px-[20px]">
+        <h1 className="text-SoftOrange text-3xl font-bold">Sagrada Familia</h1>
         <NewArticle
             title='Excursión a Montserrat'
             text= 'Viaje en autocar con salida desde la plaza Cataluña'
@@ -13,8 +13,8 @@ export const NewContainer = () => {
             text= 'Después de la discoteca, cena en restaurante Palafel'
         />
         <NewArticle
-            title='Charla sobre la cultura de Guinea Equatorial'
-            text= 'Me parece que esta actividad será un tostón'
+            title='La fiesta de la Sagrada Familia en Basakato'
+            text= 'Se celebra el último viernes del año'
         />
             
     </aside>
